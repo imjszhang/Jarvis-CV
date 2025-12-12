@@ -19,11 +19,17 @@ export default function Home() {
       <SocialLinks className="top-6 left-10" />
 
       {/* Navigation Buttons */}
-    <div className="absolute bottom-10 right-10 z-50 flex flex-col gap-4 items-end">
+      <div className="absolute bottom-10 right-10 z-50 flex flex-col gap-4 items-end pointer-events-auto">
+        <Link href="/game">
+          <button className="px-6 py-3 bg-purple-900/60 border-2 border-purple-400 text-purple-200 rounded-lg font-mono text-sm tracking-[0.2em] hover:bg-purple-700/80 hover:text-white hover:border-purple-300 transition-all duration-300 backdrop-blur-md group w-64 text-right flex shadow-[0_0_20px_rgba(168,85,247,0.5)] hover:shadow-[0_0_30px_rgba(168,85,247,0.8)]">
+            <span className="mr-2 group-hover:animate-pulse text-xl">🎮</span>
+            <span className="font-bold">GESTURE_RHYTHM</span>
+          </button>
+        </Link>
         <Link href="/overwatch">
-          <button className="px-6 py-3 bg-blue-900/20 border border-blue-500/50 text-blue-400 rounded-none font-mono text-sm tracking-[0.2em] hover:bg-blue-500/20 hover:text-blue-200 transition-all duration-300 backdrop-blur-sm group w-64 text-right flex">
-            <span className="mr-2 group-hover:animate-pulse">🌍</span>
-            GLOBAL_OVERWATCH
+          <button className="px-6 py-3 bg-blue-900/60 border-2 border-blue-400 text-blue-200 rounded-lg font-mono text-sm tracking-[0.2em] hover:bg-blue-700/80 hover:text-white hover:border-blue-300 transition-all duration-300 backdrop-blur-md group w-64 text-right flex shadow-[0_0_20px_rgba(59,130,246,0.5)] hover:shadow-[0_0_30px_rgba(59,130,246,0.8)]">
+            <span className="mr-2 group-hover:animate-pulse text-xl">🌍</span>
+            <span className="font-bold">GLOBAL_OVERWATCH</span>
           </button>
         </Link>
       </div>
