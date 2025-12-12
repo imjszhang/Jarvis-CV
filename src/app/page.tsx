@@ -32,6 +32,12 @@ export default function Home() {
             <span className="font-bold">GLOBAL_OVERWATCH</span>
           </button>
         </Link>
+        <Link href="/combat">
+          <button className="px-6 py-3 bg-red-900/60 border-2 border-red-400 text-red-200 rounded-lg font-mono text-sm tracking-[0.2em] hover:bg-red-700/80 hover:text-white hover:border-red-300 transition-all duration-300 backdrop-blur-md group w-64 text-right flex shadow-[0_0_20px_rgba(239,68,68,0.5)] hover:shadow-[0_0_30px_rgba(239,68,68,0.8)]">
+            <span className="mr-2 group-hover:animate-pulse text-xl">🥊</span>
+            <span className="font-bold">HAND_COMBAT</span>
+          </button>
+        </Link>
       </div>
       <div className="absolute top-6 right-6 z-50 text-right pointer-events-none">
         <h1 className="text-2xl font-bold text-white tracking-widest opacity-80 font-mono text-glow">
