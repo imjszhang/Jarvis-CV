@@ -20,6 +20,12 @@ export default function Home() {
 
       {/* Navigation Buttons */}
       <div className="absolute bottom-10 right-10 z-50 flex flex-col gap-4 items-end pointer-events-auto">
+        <Link href="/keyboard">
+          <button className="px-6 py-3 bg-emerald-900/60 border-2 border-emerald-400 text-emerald-200 rounded-lg font-mono text-sm tracking-[0.2em] hover:bg-emerald-700/80 hover:text-white hover:border-emerald-300 transition-all duration-300 backdrop-blur-md group w-64 text-right flex shadow-[0_0_20px_rgba(16,185,129,0.5)] hover:shadow-[0_0_30px_rgba(16,185,129,0.8)]">
+            <span className="mr-2 group-hover:animate-pulse text-xl">⌨️</span>
+            <span className="font-bold">GESTURE_INPUT</span>
+          </button>
+        </Link>
         <Link href="/game">
           <button className="px-6 py-3 bg-purple-900/60 border-2 border-purple-400 text-purple-200 rounded-lg font-mono text-sm tracking-[0.2em] hover:bg-purple-700/80 hover:text-white hover:border-purple-300 transition-all duration-300 backdrop-blur-md group w-64 text-right flex shadow-[0_0_20px_rgba(168,85,247,0.5)] hover:shadow-[0_0_30px_rgba(168,85,247,0.8)]">
             <span className="mr-2 group-hover:animate-pulse text-xl">🎮</span>
